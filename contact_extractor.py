@@ -53,7 +53,7 @@ for g_id in g_list:
 			fo.write("FN:alternate\n")
 		
 		for n in numbers:
-			fo.write("TEL;CELL:"+n)
+			fo.write("TEL;CELL:+"+n)
 			fo.write("\n")
 		fo.write("END:VCARD");
 		fo.close()
